@@ -1,0 +1,15 @@
+Package: summarizeTumor
+Type: Package
+Title: Summarizing Tumor Data for Analysis
+Version: 0.1.0
+Author: Poorna Murali
+Maintainer: Poornamurali <poornaa.murali@gmail.com>
+Description: This package provides functions for summarizing tumor data, specifically designed to help users explore and visualize patterns of tumor characteristics (such as 'radius_mean') grouped by tumor type.
+License: MIT + file LICENSE
+Imports:
+    dplyr (>= 1.0.0),
+    ggplot2 (>= 3.3.3)
+Roxygen: list(markdown = TRUE)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
